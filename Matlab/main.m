@@ -87,20 +87,4 @@ elseif index == 5
     fprintf('Running %s.m...\n', script_name);
     run(script_name);
 
-elseif index == 6
-
-    script_name = 'beyond_propagation';
-    
-    % ---- RUN SCRIPT ----
-    fprintf('Running %s.m...\n', script_name);
-    run(script_name);
-    
-elseif index == 7
-
-    script_name = 'astrocyte_stops';
-    
-    % ---- RUN SCRIPT ----
-    fprintf('Running %s.m...\n', script_name);
-    run(script_name);
-
 end
