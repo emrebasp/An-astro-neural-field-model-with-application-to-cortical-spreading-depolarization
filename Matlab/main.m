@@ -38,9 +38,9 @@
 clear all; close all; clc;
 
 % ---- SET INDEX HERE ----
-index = 7;   % choose 1, 2, 3, 4, 5, 6 or 7, nothing else.
+index = 7;   % choose 1, 2, 3, 4, or 5.
     
-indices = [1, 2, 3, 4, 5, 6, 7];
+indices = [1, 2, 3, 4, 5];
 
 % ---- CHECK VALIDITY ----
 if ~ismember(index, indices)
