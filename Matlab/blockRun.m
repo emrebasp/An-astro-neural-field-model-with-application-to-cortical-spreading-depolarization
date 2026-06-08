@@ -99,7 +99,6 @@ clear all; close all; clc;
 
 % parIndex = 1: sweep gamma_an 
 % parIndex = 2: sweep gamma_aa 
-% parIndex = 3: sweep gamma_a
 
 
 for parIndex = 1:2
